@@ -1,0 +1,35 @@
+*{
+    margin: 0cm;
+}
+.grandContainer{
+    width: 40%;
+    border: solid 4px;
+}
+.linhaRight, .linhaLeft{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+}
+.white, .black{
+    width: 7.5vw;
+    height: 100%;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.black{
+    background-color: #000000;
+}
+.fundo{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #8a2be2;
+}
+.img{
+    width: 80%;
+    height: 10vh;
+}
